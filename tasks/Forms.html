@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="">
+      <p>
+        <label for="username"> enter your name : </label>
+        <input type="text" name="username" id="username" />
+      </p>
+
+      <p>
+        <label for="password">enter your password : </label>
+        <input type="password" name="password" id="password" />
+      </p>
+
+      <p>
+        <label for="radio">choose size : </label>
+        <label for="radio">M</label>
+        <input type="radio" name="size" id="radio" value="M" />
+        <label for="radio">L</label>
+        <input type="radio" name="size" id="radio" value="L" />
+        <label for="radio">XL</label>
+        <input type="radio" name="size" id="radio" value="XL" />
+      </p>
+      <p>
+        <label for="select">Select Below</label>
+        <select name="select" id="select">
+          <option value="">-- default --</option>
+          <option value="S">small</option>
+          <option value="M">medium</option>
+          <option value="L">large</option>
+        </select>
+      </p>
+      <p>
+        <label for="cheese"> amout of cheese</label>
+        <input type="range" name="cheese" id="range" min="0" max="100" />
+      </p>
+      <p>
+        <label for="text"> Tell us more</label>
+        <textarea
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Tell us more"
+        ></textarea>
+      </p>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
