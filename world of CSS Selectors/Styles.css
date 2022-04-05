@@ -1,0 +1,56 @@
+body{
+
+    color: #8b8c89;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: #a8dadc;
+    font-size: medium;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* applied below props for both h1 & h2 */
+h1,h2{
+    color: #1d3557;
+}
+
+/* props for id */
+#signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+/* props for class */
+.tag{
+    background-color: black;
+    color: white;
+}
+
+span{
+    color: #457b9d;
+}
+
+/* Descendant selector : apply props to all descendant "a's" of clss "post" */
+.post a{
+    color: black ;
+}
+
+footer a{
+    color: #ffaa00;
+}
+
+/* Adjacent selector : apply props to "button" that are immediate preceed (next) of "h2" */
+h2 + button{
+    background-color: #ffaa00;
+}
+
+/* Direct Child : select only li's that are direct child of div element */
+footer > a{
+    color:darkolivegreen ;
+}
+
+/* Attribute selector : select all input elements where type attr is set to text */
+input[type="text"]{
+    color: yellow;
+} 
